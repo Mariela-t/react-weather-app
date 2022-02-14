@@ -9,3 +9,46 @@
   box-shadow: 5px 5px 5px rgba(206, 202, 202, 0.774);
   margin-bottom: 5px;
 }
+
+.button {
+  background-color: #5989e2;
+  color: white;
+  border: 1px solid rgba(124, 123, 123, 0.411);
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(192, 189, 189);
+  position: relative;
+  right: -280px;
+  padding: 7px 15px;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 28px;
+  font-weight: 100;
+  color: #515153e5;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 100;
+  color: #515153e5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  color: #515153e5;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
