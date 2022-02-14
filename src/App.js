@@ -18,6 +18,17 @@ function App() {
         <Overview />
         <Weather />
       </div>
+      <span>
+        {" "}
+        <a
+          href="https://github.com/Mariela-t/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source code{" "}
+        </a>{" "}
+        by Mariela Tinoco Rojas{" "}
+      </span>
     </div>
   );
 }
