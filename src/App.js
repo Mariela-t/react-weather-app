@@ -2,7 +2,7 @@ import Weather from "./Weather";
 import Overview from "./Overview";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="boxWrapper">
       <div className="box">
@@ -32,5 +32,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
