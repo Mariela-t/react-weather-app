@@ -1,15 +1,16 @@
+import React from "react";
 import Weather from "./Weather";
 import Overview from "./Overview";
 import "./App.css";
 
 export default function App() {
   return (
-    <div className="boxWrapper">
+    <div className="container">
       <div className="box">
         <form className="mb-4">
           <input
             type="search"
-            placeholder="Enter city..."
+            placeholder="Enter a city..."
             className="form-control mb-3"
             autoComplete="off"
           />
@@ -18,7 +19,7 @@ export default function App() {
         <Overview />
         <Weather />
       </div>
-      <span>
+      <footer className="sourceLink">
         {" "}
         <a
           href="https://github.com/Mariela-t/react-weather-app"
@@ -26,9 +27,9 @@ export default function App() {
           rel="noreferrer"
         >
           Open-source code{" "}
-        </a>{" "}
+        </a>
         by Mariela Tinoco Rojas{" "}
-      </span>
+      </footer>
     </div>
   );
 }

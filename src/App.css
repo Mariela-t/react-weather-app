@@ -1,7 +1,8 @@
-.boxWrapper {
+.container {
   max-width: 680px;
   margin: 0 auto;
   margin-top: 80px;
+  font-family: "Courier New", Courier, monospace;
 }
 .box {
   padding: 20px;
@@ -21,14 +22,14 @@
   padding: 7px 15px;
 }
 
-h1 {
+.Overview h1 {
   font-size: 35px;
   line-height: 28px;
   font-weight: 100;
   color: #515153e5;
 }
 
-h2,
+.Overview h2,
 h3 {
   font-size: 20px;
   line-height: 28px;
@@ -36,19 +37,42 @@ h3 {
   color: #515153e5;
 }
 
-ul {
+.Weather ul {
   margin: 0;
   padding: 0;
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
   font-size: 18px;
   line-height: 25px;
   font-weight: 100;
   color: #515153e5;
 }
 
-li:first-letter {
+.Weather li:first-letter {
   text-transform: capitalize;
+}
+
+.sourceLink a {
+  text-decoration: none;
+}
+
+.clearfix img {
+  height: 70px;
+  float: left;
+}
+
+.temperature {
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.units {
+  position: relative;
+  top: -32px;
+  line-height: 1;
+}
+.units a {
+  text-decoration: none;
 }
