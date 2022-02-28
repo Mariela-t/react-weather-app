@@ -5,7 +5,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="container">
-      <Weather />
+      <Weather defaultcity="New York" />
       <footer className="sourceLink">
         {" "}
         <a
