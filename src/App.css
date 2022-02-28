@@ -22,14 +22,14 @@
   padding: 7px 15px;
 }
 
-.Overview h1 {
+h1 {
   font-size: 35px;
   line-height: 28px;
   font-weight: 100;
   color: #515153e5;
 }
 
-.Overview h2,
+h2,
 h3 {
   font-size: 20px;
   line-height: 28px;
@@ -37,7 +37,13 @@ h3 {
   color: #515153e5;
 }
 
-.Weather ul {
+h1,
+h2,
+h3:first-letter {
+  text-transform: capitalize;
+}
+
+ul {
   margin: 0;
   padding: 0;
 }
@@ -50,7 +56,7 @@ li {
   color: #515153e5;
 }
 
-.Weather li:first-letter {
+li:first-letter {
   text-transform: capitalize;
 }
 
