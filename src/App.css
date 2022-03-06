@@ -64,9 +64,10 @@ li:first-letter {
   text-decoration: none;
 }
 
-.clearfix img {
-  height: 70px;
+.float-left {
   float: left;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 .temperature {
