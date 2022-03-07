@@ -6,20 +6,29 @@
 }
 .box {
   padding: 20px;
-  border: 2px solid #dadde1;
+  border: 2px solid #dad7fd;
   box-shadow: 5px 5px 5px rgba(206, 202, 202, 0.774);
   margin-bottom: 5px;
+  border-radius: 20px;
+  background-color: #dfddf763;
 }
 
 .button {
-  background-color: #5989e2;
+  background-color: #c2bbff;
   color: white;
-  border: 1px solid rgba(124, 123, 123, 0.411);
+  border: 1px solid rgba(186, 146, 238, 0.411);
   border-radius: 5px;
   box-shadow: 3px 3px 3px rgb(192, 189, 189);
   position: relative;
-  right: -280px;
+  right: -250px;
   padding: 7px 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.button:hover {
+  color: #c2bbff;
+  background-color: white;
 }
 
 h1 {
@@ -62,6 +71,7 @@ li:first-letter {
 
 .sourceLink a {
   text-decoration: none;
+  color: #9a90f7;
 }
 
 .float-left {
@@ -79,7 +89,9 @@ li:first-letter {
   position: relative;
   top: -32px;
   line-height: 1;
+  color: #958ddb;
 }
 .unit a {
   text-decoration: none;
+  color: #6c64bd;
 }
